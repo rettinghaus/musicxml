@@ -362,9 +362,9 @@
 	"directive  %yes-no;  #IMPLIED">
 	
 <!--
-	The bezier entity is used to indicate the curvature of
+	The Bézier entity is used to indicate the curvature of
 	slurs and ties, representing the control points for a 
-	cubic bezier curve. For ties, the bezier entity is 
+	cubic Bézier curve. For ties, the Bézier entity is 
 	used with the tied element.
 
 	Normal slurs, S-shaped slurs, and ties need only two 
@@ -374,12 +374,12 @@
 	bezier data at slur elements with a continue type.
 	
 	The bezier-x, bezier-y, and bezier-offset attributes
-	describe the outgoing bezier point for slurs and ties 
-	with a start type, and the incoming bezier point for
+	describe the outgoing Bézier point for slurs and ties 
+	with a start type, and the incoming Bézier point for
 	slurs and ties with types of stop or continue. The 
 	bezier-x2, bezier-y2, and bezier-offset2 attributes 
 	are only valid with slurs of type continue, and 
-	describe the outgoing bezier point.
+	describe the outgoing Bézier point.
 	
 	The bezier-x, bezier-y, bezier-x2, and bezier-y2
 	attributes are specified in tenths, relative to any
